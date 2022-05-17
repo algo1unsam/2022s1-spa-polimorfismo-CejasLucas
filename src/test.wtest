@@ -1,0 +1,18 @@
+import spa.*
+import personas.*
+
+test "SPA atiende a Bruno" {
+	spa.atender(ramiro)
+	assert.equals(0, ramiro.contractura())
+	assert.equals(false, ramiro.pielGrasosa())  }
+
+test "Anteder a Bruno"{
+	spa.atender(bruno)
+	assert.equals(true, bruno.esFeliz())
+	assert.equals(true, bruno.tieneSed())
+	assert.equals(549500, bruno.peso())    }
+
+test "Anteder a Olivia"{
+	spa.atender(olivia)
+	assert.equals(9, olivia.concentracion())  }
+
